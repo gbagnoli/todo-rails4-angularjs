@@ -1,5 +1,11 @@
 # RoR-docker example app for rubyday2014
 
+## Slides
+
+[watch online on slideshare](http://www.slideshare.net/giacomobagnoli/streamline-your-development-environment-with-docker)
+
+Slides are open source at [github/gbagnoli/rubyday2014](https://github.com/gbagnoli/rubyday2014)
+
 ## Install docker
 
 [The is best explained in the docker documentation](https://docs.docker.com/installation/#installation)
@@ -44,6 +50,8 @@ $ fig run web bundle exec rake db:schema:load
 ```
 
 You can then access the application on [localhost:3000](http://localhost:3000)
+
+# ORIGINAL README
 
 # Showcase of Rails 4 and AngularJS integration
 
