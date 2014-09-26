@@ -6,7 +6,7 @@ RUN adduser todo --home /opt/todo --shell /bin/bash --disabled-password --gecos 
 
 RUN apt-get update && \
     apt-get install -y libpq-dev nodejs && \
-    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*.deb 
+    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*.deb
 
 ADD Gemfile /opt/todo/
 ADD Gemfile.lock /opt/todo/
